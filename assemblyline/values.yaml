@@ -167,6 +167,9 @@ coreServiceAccountName: default
 privilegedServiceAccountName: default
 # bound to unprivileged service pods that Scaler creates
 unprivilegedServiceAccountName: default
+# annotations for the service account
+serviceAccount:
+  annotations: {}
 
 # Internal communications are encrypted for hosts part of this chart
 enableInternalEncryption: false
